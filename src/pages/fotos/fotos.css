@@ -1,0 +1,71 @@
+#banner{
+    background-image: url("../../assets//BANNER.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.container-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+}
+
+.block{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 50px;
+    column-gap: 20px;
+    border-radius: 20px;
+    
+}
+
+.pictures{
+    background-color: none;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 3s;
+    display: flex;
+    
+}
+.pictures:hover{
+    border-radius: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(1.10);
+
+}
+
+.img1{
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMDFhZTc3NWQtY2UyZS00OGYzLTgxNTUtYjYxMjZjMmEyMjcwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg');
+}
+.img2{
+    background-image: url('https://portalpopline.com.br/wp-content/uploads/2023/02/the-flash-exibicao-antecipada-cinemacon-2023.jpg');
+}
+.img3{
+    background-image: url('https://universoheroico.com.br/wp-content/uploads/2021/10/Imagem-do-filme-The-Flash.jpeg');
+}
+.img4{
+    background-image: url('https://media.distractify.com/brand-img/FGQxTVuJQ/0x0/who-plays-batman-in-the-flash-movie-1676303989932.jpg');
+}
+.img5{
+    background-image: url('https://pbs.twimg.com/media/FY6lKa7XoAAqfsY?format=jpg&name=900x900');
+}
+.img6{
+    background-image: url('https://pbs.twimg.com/media/Fo3yOejakAEe_GE.jpg:large');
+}
+.img7{
+    background-image: url('https://wegotthiscovered.com/wp-content/uploads/2023/02/the-flash-7.jpg?w=1200');
+}
+.img8{
+    background-image: url('https://images.thedirect.com/media/photos/zod-supergirl.jpg');
+}

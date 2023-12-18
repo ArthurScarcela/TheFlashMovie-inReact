@@ -1,0 +1,17 @@
+.dados{
+    color: Green;
+    display: flex;
+}
+
+.dadosUsuario{
+    display: flex;
+    width: 300px;
+    
+}
+
+.dadosList{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
